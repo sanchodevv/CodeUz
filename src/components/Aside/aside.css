@@ -1,0 +1,70 @@
+aside{
+    width: 300px;
+    height: 100vh;
+    background-color: #e8e5e5;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+
+}
+.aside-logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+}
+.aside-logo h1{
+    font-size: 24px;
+    display: flex;
+    font-weight: 600;
+    color: #000;
+}
+.aside-logo h1 span{
+    color: #ff0000;
+}
+.aside-logo img{
+    width: 90%;
+    margin-left: 10px;
+    height: 50px;
+}
+.aside-navbar{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 20px;
+    gap: 20px;
+}
+.link{
+    width: 230px;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.link:hover{
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+.link.active{
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+.link.active:hover{
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+.link:focus{
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
