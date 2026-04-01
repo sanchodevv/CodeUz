@@ -3,6 +3,9 @@ import Categories from "./Category/category"
 import FeaturedCourses from "./Features/features"
 
 import "./home.css"
+import MentsCard from "./Ment/ment";
+import Ment from "./Ment/ment";
+import ArticlesBlog from "./Article/article";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -71,6 +74,15 @@ const Home = () => {
                     </ul>
                 </div>
             </div>
+            <div className="mentss">
+                <h1>Mentors</h1>
+                <p>Learn from proffesianals</p>
+                <Ment />
+                <button onClick={() => navigate("/mentors")}>See Mentors</button>
+            </div>
+        <div className="atricless">
+            <ArticlesBlog />
+        </div>
         </div>
     )
 }

@@ -32,7 +32,7 @@ export const menuData: MenuItem[] = [
             name: "Blog",
             img: "/computer.png"
         },{
-            path: "/contacts",
+            path: "/contact",
             name: "Contacts",
             img: "/mobile.png"
         }

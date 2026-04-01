@@ -1,0 +1,49 @@
+.articles{
+    margin-block: 100px;
+    margin-inline: 60px;
+}
+.articles-header{
+    display: flex;  
+    justify-content: space-between;
+}
+.articles-header h2{
+    color: red;
+    margin-bottom: 10px;
+}
+.articles-header button{
+    padding: 10px;
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.articles-header button:hover{
+    filter: drop-shadow(2px 2px 20px red);
+}
+.articles-cards{
+    display: flex;
+    margin-top: 50px;
+    gap: 25px;
+}
+.article-card{
+    background-color: #e8e5e5;
+    width: 350px;
+    border-radius: 20px;
+    height: 400px;
+    transition: 0.3s ease-in-out;
+}
+.article-card:hover{
+    transform: translateY(-5px);
+    filter: drop-shadow(2px 2px 20px red);
+}
+.article-card img{
+    width: 350px;
+}
+.article-card h3{
+    margin: 10px;
+    color: red;
+}
+.article-card p{
+    margin: 10px;
+    
+}

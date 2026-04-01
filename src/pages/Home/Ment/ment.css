@@ -1,0 +1,26 @@
+.mentss{
+    margin-block: 100px;
+    margin-left: 60px;
+}
+
+.ant-table-cell a{
+    color: black ;
+}
+.ant-table-cell::before{
+    
+}
+.ant-table-css-var{
+    margin-right: 60px;
+    filter: drop-shadow(2px 2px 10px red);
+    margin-top: 20px;
+}
+.ant-table-thead{
+    background-color: #e8e5e5;
+}
+.ant-tag{
+    background-color: red !important;
+    color: white !important;
+}
+.ant-pagination{
+    display: none !important;
+}

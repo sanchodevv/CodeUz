@@ -1,0 +1,13 @@
+.courses{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.ant-input-affix-wrapper{
+    width: 500px;
+    border: 1px solid red;
+}
+.ant-input{
+    border: 1px solid white !important;
+}

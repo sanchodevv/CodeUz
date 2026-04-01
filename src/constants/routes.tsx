@@ -29,7 +29,7 @@ export const routes = [
     },
     {
         key: 4,
-        path: "./blog",
+        path: "/blog",
         element: <Blog />
     },
     {
